@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: stripe
+    description: A clone of a stripe application database.
+    database: raw
+    schema: stripe
+    tables:
+      - name: payment
